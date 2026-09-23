@@ -59,3 +59,9 @@ Astra's instructions (sent via direct chat):
 - PRIMARY: Codex SDK path (subscription allowance, $0). Awaiting Astra's verification (quota headroom + privacy split) before greenlight.
 - FALLBACK: OpenRouter free tier, once the key file situation is resolved (login flaky; key may exist somewhere on PC — Astra grep for sk-or-v1- pending).
 - TASK-002 (retire OpenClaw duplicate on 18791): still queued behind the reasoning work.
+
+### Status note 2026-09-23 ~11:55 EDT (TASK-001, Codex path)
+- Codex auth VERIFIED: signed in with ChatGPT, synthetic check passed in 4.95s. $0 spend, subscription allowance.
+- STOPPED at privacy check: test worker still reported tool access after isolation settings applied. Astra could not verify it cannot read identity/PSC/Judge files. Correct stop per the privacy rule.
+- Nothing changed, no restart. Still on local Qwen 7B.
+- Next: Astra to prove worker isolation (sandboxed, no access to private paths) or declare it unprovable → fallback to OpenRouter free.
