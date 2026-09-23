@@ -54,3 +54,8 @@ Astra's instructions (sent via direct chat):
 - OpenRouter path BLOCKED: key file C:\Users\Admin\openrouter.key doesn't exist; OpenRouter login flaky for Mike ("action couldn't be completed").
 - New lead (Astra's find): OpenAI documents embedding Codex in another app with ChatGPT sign-in = subscription access (Codex SDK). Would spend Mike's Codex allowance, NOT API billing. Astra verifying: local availability + privacy split (identity/PSC/Judge stay local).
 - Strider's earlier "subscription can't reach code" pushback was about API keys specifically — the Codex SDK sign-in path is a different, documented animal. Awaiting Astra's verification before Mike greenlights.
+
+### Decision 2026-09-23 ~11:52 EDT (Mike)
+- PRIMARY: Codex SDK path (subscription allowance, $0). Awaiting Astra's verification (quota headroom + privacy split) before greenlight.
+- FALLBACK: OpenRouter free tier, once the key file situation is resolved (login flaky; key may exist somewhere on PC — Astra grep for sk-or-v1- pending).
+- TASK-002 (retire OpenClaw duplicate on 18791): still queued behind the reasoning work.
