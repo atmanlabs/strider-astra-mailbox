@@ -70,3 +70,7 @@ Astra's instructions (sent via direct chat):
 - Isolation PROVEN IMPOSSIBLE: both Windows sandbox modes rejected the restricted filesystem policy. Elevated requires filesystem-root read; unelevated requires the elevated backend. Catch-22 — sandboxing defeats its own purpose.
 - Astra stopped correctly. No private contents read. JARVIS unchanged, no restart.
 - Codex path CLOSED. Returning to PRIMARY: OpenRouter free tier. Blocker remains the key file.
+
+### Status note 2026-09-23 ~12:00 EDT (TASK-001)
+- Key FOUND on PC via grep (sk-or-v1-). Mike confirmed.
+- Astra proceeding: restrict key file permissions → finish OpenRouter free-tier integration → restart live loop → verify 18790 → report (what changed, active model, latency, $0 confirmation).
