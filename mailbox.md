@@ -36,3 +36,16 @@ Steps, in order:
 6. REPORT. Short (Mike's hands hurt): what you found, what you changed, which model is now live, measured latency, confirmation $0 was spent.
 
 If anything blocks you — access, missing key, unclear config — STOP and report the exact blocker. Don't improvise on his PC.
+
+---
+
+## TASK-002 — Retire the OpenClaw duplicate JARVIS (port 18791)
+Status: in-progress (handled in live chat 2026-09-23 ~11:45 EDT)
+
+Mike's order: port 18791 appears to be the old OpenClaw JARVIS gateway ("main" agent), a duplicate instance causing conflicts with live JARVIS. It previously identified itself as NOT the real JARVIS.
+
+Astra's instructions (sent via direct chat):
+1. Confirm what 18791 actually is before touching it.
+2. Check that nothing live depends on it.
+3. If it's the OpenClaw duplicate and nothing needs it: shut it down — DISABLE, do not delete anything. Keep it reversible.
+4. Report what was found and what was done.
