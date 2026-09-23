@@ -65,3 +65,8 @@ Astra's instructions (sent via direct chat):
 - STOPPED at privacy check: test worker still reported tool access after isolation settings applied. Astra could not verify it cannot read identity/PSC/Judge files. Correct stop per the privacy rule.
 - Nothing changed, no restart. Still on local Qwen 7B.
 - Next: Astra to prove worker isolation (sandboxed, no access to private paths) or declare it unprovable → fallback to OpenRouter free.
+
+### Status note 2026-09-23 ~11:57 EDT (TASK-001, Codex path CLOSED)
+- Isolation PROVEN IMPOSSIBLE: both Windows sandbox modes rejected the restricted filesystem policy. Elevated requires filesystem-root read; unelevated requires the elevated backend. Catch-22 — sandboxing defeats its own purpose.
+- Astra stopped correctly. No private contents read. JARVIS unchanged, no restart.
+- Codex path CLOSED. Returning to PRIMARY: OpenRouter free tier. Blocker remains the key file.
