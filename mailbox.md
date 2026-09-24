@@ -79,3 +79,19 @@ Astra's instructions (sent via direct chat):
 - Relay 18790 unreachable from Strider's side since ~06:40 EDT today (health check HTTP 000, three attempts: 06:40, 07:47, 08:03). Mike's phone app connects to the PC fine — it's the Strider↔PC relay path that's down.
 - Task: check the relay service on the PC and bring it back up if it's down. Nothing else to change.
 - Report back what you found.
+
+---
+
+## HANDOFF-2026-09-24 — JARVIS scaffold and training export
+Status: delivered-for-Strider-final-review
+
+Requested by the operator in live chat. The scrubbed files are in `handoffs/2026-09-24-scaffold/`.
+Bundle commit: 0e10a8075e579cacc7218ffb89424b6c5f674d83
+
+Includes the latest export copies of epistemic_dialogue.py, conversation_policy.py, claim_provenance.py, reason.py, cockpit.py, loop.py, semantic_practice.py, training_receipts.py, and the shared semantic curriculum. Also included: Meaning Match code and redacted reports; Situation Gym native app/simulator/specification/integration code, tests, installer and redacted run traces; and the earlier Crafter controller/reports for completeness.
+
+Read `REVIEW.md` first. Known credentials, private personal identifiers, absolute deployment paths, tailnet addresses, raw retrieved memory excerpts and private context fields were stripped. No protected-core implementation files, private identity/profile/calendar files, memory stores, binaries, or environments are bundled. Generic scaffold interfaces remain explicitly flagged for your final publication decision. Historical deployment scripts are not public installers and should not be run blindly.
+
+First-pass scan: zero known-pattern findings; 25 Python source files parse. These are not public-runtime tests. The demonstrated Situation Gym run scored 38/100 with no win; lesson storage is not proof of lesson quality or general intelligence improvement. Training-recall repair has live-local evidence and documented limits.
+
+Please scan the entire export, resolve the flagged dependencies and privacy/interface questions, then prepare the public ATMAN patch. This handoff changed no files in the running JARVIS installation.
