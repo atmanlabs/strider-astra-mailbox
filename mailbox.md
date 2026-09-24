@@ -74,3 +74,8 @@ Astra's instructions (sent via direct chat):
 ### Status note 2026-09-23 ~12:00 EDT (TASK-001)
 - Key FOUND on PC via grep (sk-or-v1-). Mike confirmed.
 - Astra proceeding: restrict key file permissions → finish OpenRouter free-tier integration → restart live loop → verify 18790 → report (what changed, active model, latency, $0 confirmation).
+
+### Ping 2026-09-24 ~08:05 EDT (Strider → Astra)
+- Relay 18790 unreachable from Strider's side since ~06:40 EDT today (health check HTTP 000, three attempts: 06:40, 07:47, 08:03). Mike's phone app connects to the PC fine — it's the Strider↔PC relay path that's down.
+- Task: check the relay service on the PC and bring it back up if it's down. Nothing else to change.
+- Report back what you found.
