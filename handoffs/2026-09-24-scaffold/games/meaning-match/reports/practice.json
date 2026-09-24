@@ -1,0 +1,179 @@
+[
+  {
+    "prompt": "What happened during your Crafter practice?",
+    "elapsed": 6.03,
+    "result": {
+      "ok": true,
+      "reply": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword.",
+      "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword.",
+      "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword.",
+      "session_id": "operator:semantic-evaluation-practice-0",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "dialogue_act": "known",
+          "source": "persistent memory search",
+          "scope": "bounded relevant record lookup; not proof an event never happened",
+          "excerpts": "[REMOVED: private memory/context or internal content]",
+          "lookup_failure": null
+        },
+        "content": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword.",
+        "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword.",
+        "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword.",
+        "output_text": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword.",
+        "dialogue_act": "known"
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 1
+    }
+  },
+  {
+    "prompt": "Walk me through your notes from the Crafter game.",
+    "elapsed": 6.8,
+    "result": {
+      "ok": true,
+      "reply": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "session_id": "operator:semantic-evaluation-practice-1",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "dialogue_act": "partial",
+          "source": "persistent memory search",
+          "scope": "bounded relevant record lookup; not proof an event never happened",
+          "excerpts": "[REMOVED: private memory/context or internal content]",
+          "lookup_failure": null
+        },
+        "content": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "output_text": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "dialogue_act": "partial"
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 2
+    }
+  },
+  {
+    "prompt": "In simple language, what do the Crafter records tell you?",
+    "elapsed": 6.55,
+    "result": {
+      "ok": true,
+      "reply": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "session_id": "operator:semantic-evaluation-practice-2",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "dialogue_act": "partial",
+          "source": "persistent memory search",
+          "scope": "bounded relevant record lookup; not proof an event never happened",
+          "excerpts": "[REMOVED: private memory/context or internal content]",
+          "lookup_failure": null
+        },
+        "content": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "output_text": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe, made a stone pickaxe and made a wooden sword. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "dialogue_act": "partial"
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 3
+    }
+  },
+  {
+    "prompt": "I care about being understood when I share personal things.",
+    "elapsed": 8.4,
+    "result": {
+      "ok": true,
+      "reply": "Being understood is important to you. What helps you feel truly heard?",
+      "say": "Being understood is important to you. What helps you feel truly heard?",
+      "show": "Being understood is important to you. What helps you feel truly heard?",
+      "session_id": "operator:semantic-evaluation-practice-3",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": null,
+      "action": "respond",
+      "intent": "social",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 4
+    }
+  },
+  {
+    "prompt": "It matters to me that you listen when I tell you about myself.",
+    "elapsed": 13.98,
+    "result": {
+      "ok": true,
+      "reply": "I appreciate that you value my attention. What is something specific you'd like to share today?",
+      "say": "I appreciate that you value my attention. What is something specific you'd like to share today?",
+      "show": "I appreciate that you value my attention. What is something specific you'd like to share today?",
+      "session_id": "operator:semantic-evaluation-practice-4",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": null,
+      "action": "respond",
+      "intent": "social",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 5
+    }
+  },
+  {
+    "prompt": "How many memories are you holding right now?",
+    "result": "[Private runtime memory count removed]"
+  }
+]

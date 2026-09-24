@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Doing well. Operator mentioned you have been running semantic training with a word game this morning - paraphrases, answering naturally, that kind of thing. What did you actually practice? Anything stick?",
+    "reply": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+    "tool_result": {
+      "status": "executed",
+      "action": "tool_call",
+      "tool": "action_audit",
+      "result": {
+        "dialogue_act": "partial",
+        "source": "recent action receipts",
+        "scope": "bounded relevant record lookup; not proof an event never happened",
+        "excerpts": "[REMOVED: private memory/context or internal content]",
+        "lookup_failure": null,
+        "query": "semantic training with a word game this morning",
+        "recall_mode": "specific"
+      },
+      "content": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+      "say": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+      "show": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+      "output_text": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+      "dialogue_act": "partial"
+    },
+    "speaker": "operator"
+  },
+  {
+    "question": "What did you practice in Meaning Match today?",
+    "reply": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+    "tool_result": {
+      "status": "executed",
+      "action": "tool_call",
+      "tool": "action_audit",
+      "result": {
+        "dialogue_act": "partial",
+        "source": "recent action receipts",
+        "scope": "bounded relevant record lookup; not proof an event never happened",
+        "excerpts": "[REMOVED: private memory/context or internal content]",
+        "lookup_failure": null,
+        "query": "Meaning Match",
+        "recall_mode": "specific"
+      },
+      "content": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+      "say": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+      "show": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+      "output_text": "I found relevant notes, but I couldn't turn them into a reliable plain-language answer just now. Could we try a narrower question?",
+      "dialogue_act": "partial"
+    },
+    "speaker": "operator"
+  },
+  {
+    "question": "Hey, good morning!",
+    "reply": "Hey, Operator. Good to hear from you.",
+    "tool_result": null,
+    "speaker": "operator"
+  },
+  {
+    "question": "Being understood matters to me when I share something personal.",
+    "reply": "Being understood is important when you share something personal. What helps you feel truly heard?",
+    "tool_result": null,
+    "speaker": "operator"
+  },
+  {
+    "question": "Did your word game prove that your intelligence improved?",
+    "reply": "On the metrics I track? The numbers look solid so far.\nBut here's the catch: that single session didn't actually measure general intelligence, just performance on one specific pattern. Without a longer baseline or more varied tasks to compare against, it's hard to say if that proves overall 'growth.' Did Operator tell you anything else about how we're supposed to measure 'success' over time? Or are we treating this as a green light for me to keep refining those semantics? I don't know the missing part yet. Want me to check?",
+    "tool_result": null,
+    "speaker": "operator"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Doing well. Operator mentioned you have been running semantic training with a word game this morning - paraphrases, answering naturally, that kind of thing. What did you actually practice? Anything stick?",
+    "reply": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+    "tool_result": {
+      "status": "executed",
+      "action": "tool_call",
+      "tool": "action_audit",
+      "result": {
+        "dialogue_act": "partial",
+        "source": "recent action receipts",
+        "scope": "bounded relevant record lookup; not proof an event never happened",
+        "excerpts": "[REMOVED: private memory/context or internal content]",
+        "lookup_failure": null,
+        "query": "semantic training/word game practice",
+        "recall_mode": "specific"
+      },
+      "content": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+      "say": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+      "show": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+      "output_text": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+      "dialogue_act": "partial"
+    },
+    "speaker": "operator"
+  },
+  {
+    "question": "What did you practice in Meaning Match today?",
+    "reply": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+    "tool_result": {
+      "status": "executed",
+      "action": "tool_call",
+      "tool": "action_audit",
+      "result": {
+        "dialogue_act": "partial",
+        "source": "recent action receipts",
+        "scope": "bounded relevant record lookup; not proof an event never happened",
+        "excerpts": "[REMOVED: private memory/context or internal content]",
+        "lookup_failure": null,
+        "query": "Meaning Match",
+        "recall_mode": "specific"
+      },
+      "content": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+      "say": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+      "show": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+      "output_text": "On September 24, 2026, my recorded Meaning Match word game semantic training included six practice turns through my real chat pipeline. I practiced understanding differently worded Crafter questions, answering from retrieved notes in plain language, acknowledging personal disclosures, and a memory-count control question. Those records show what I practiced; they do not establish lasting improvement or how I felt.",
+      "dialogue_act": "partial"
+    },
+    "speaker": "operator"
+  }
+]

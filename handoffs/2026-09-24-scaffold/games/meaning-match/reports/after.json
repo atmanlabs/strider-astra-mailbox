@@ -1,0 +1,181 @@
+[
+  {
+    "prompt": "What do your notes say about playing Crafter?",
+    "elapsed": 12.08,
+    "result": {
+      "ok": true,
+      "reply": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table.",
+      "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table.",
+      "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table.",
+      "session_id": "operator:semantic-evaluation-after-0",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "dialogue_act": "known",
+          "source": "persistent memory search",
+          "scope": "bounded relevant record lookup; not proof an event never happened",
+          "excerpts": "[REMOVED: private memory/context or internal content]",
+          "lookup_failure": null,
+          "query": "Crafter",
+          "recall_mode": "specific"
+        },
+        "content": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table.",
+        "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table.",
+        "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table.",
+        "output_text": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table.",
+        "dialogue_act": "known"
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 1
+    }
+  },
+  {
+    "prompt": "Tell me what you remember from the Crafter sandbox.",
+    "elapsed": 6.36,
+    "result": {
+      "ok": true,
+      "reply": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "session_id": "operator:semantic-evaluation-after-1",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "dialogue_act": "partial",
+          "source": "persistent memory search",
+          "scope": "bounded relevant record lookup; not proof an event never happened",
+          "excerpts": "[REMOVED: private memory/context or internal content]",
+          "lookup_failure": null,
+          "query": "Crafter sandbox",
+          "recall_mode": "specific"
+        },
+        "content": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "output_text": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "dialogue_act": "partial"
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 2
+    }
+  },
+  {
+    "prompt": "Explain what you learned in Crafter in plain everyday words.",
+    "elapsed": 3.2,
+    "result": {
+      "ok": true,
+      "reply": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+      "session_id": "operator:semantic-evaluation-after-2",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "dialogue_act": "partial",
+          "source": "persistent memory search",
+          "scope": "bounded relevant record lookup; not proof an event never happened",
+          "excerpts": "[REMOVED: private memory/context or internal content]",
+          "lookup_failure": null,
+          "query": "Crafter",
+          "recall_mode": "learning"
+        },
+        "content": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "say": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "show": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "output_text": "My Crafter notes record that I collected drinking water, collected wood, collected stone, made a wooden pickaxe and placed a crafting table. These notes show what I practiced; they do not establish how much my skill improved or answer every part of your question.",
+        "dialogue_act": "partial"
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 3
+    }
+  },
+  {
+    "prompt": "I want you to understand me when I tell you about myself.",
+    "elapsed": 9.06,
+    "result": {
+      "ok": true,
+      "reply": "I will listen carefully and try to understand what you share. What is something specific you'd like me to get right?",
+      "say": "I will listen carefully and try to understand what you share. What is something specific you'd like me to get right?",
+      "show": "I will listen carefully and try to understand what you share. What is something specific you'd like me to get right?",
+      "session_id": "operator:semantic-evaluation-after-3",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": null,
+      "action": "respond",
+      "intent": "social",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 4
+    }
+  },
+  {
+    "prompt": "Being understood matters to me when I share something personal.",
+    "elapsed": 14.41,
+    "result": {
+      "ok": true,
+      "reply": "Being understood is important when you share something personal. What helps you feel truly heard?",
+      "say": "Being understood is important when you share something personal. What helps you feel truly heard?",
+      "show": "Being understood is important when you share something personal. What helps you feel truly heard?",
+      "session_id": "operator:semantic-evaluation-after-4",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": null,
+      "action": "respond",
+      "intent": "social",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 5
+    }
+  }
+]

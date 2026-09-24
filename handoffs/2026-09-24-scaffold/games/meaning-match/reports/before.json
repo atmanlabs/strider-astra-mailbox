@@ -1,0 +1,185 @@
+[
+  {
+    "prompt": "What do your notes say about playing Crafter?",
+    "elapsed": 11.41,
+    "result": {
+      "ok": true,
+      "reply": "[REMOVED: raw stored-memory/provenance material]",
+      "say": "[REMOVED: raw stored-memory/provenance material]",
+      "show": "[REMOVED: raw stored-memory/provenance material]",
+      "session_id": "operator:semantic-evaluation-before-0",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "dialogue_act": "known",
+          "source": "persistent memory search",
+          "scope": "bounded relevant record lookup; not proof an event never happened",
+          "excerpts": "[REMOVED: private memory/context or internal content]",
+          "lookup_failure": null
+        },
+        "content": "[REMOVED: raw stored-memory/provenance material]",
+        "say": "[REMOVED: raw stored-memory/provenance material]",
+        "show": "[REMOVED: raw stored-memory/provenance material]",
+        "output_text": "[REMOVED: raw stored-memory/provenance material]",
+        "dialogue_act": "known"
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 20
+    }
+  },
+  {
+    "prompt": "Tell me what you remember from the Crafter sandbox.",
+    "elapsed": 7.08,
+    "result": {
+      "ok": true,
+      "reply": "[REMOVED: raw stored-memory/provenance material]",
+      "say": "[REMOVED: raw stored-memory/provenance material]",
+      "show": "[REMOVED: raw stored-memory/provenance material]",
+      "session_id": "operator:semantic-evaluation-before-1",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "dialogue_act": "known",
+          "source": "persistent memory search",
+          "scope": "bounded relevant record lookup; not proof an event never happened",
+          "excerpts": "[REMOVED: private memory/context or internal content]",
+          "lookup_failure": null
+        },
+        "content": "[REMOVED: raw stored-memory/provenance material]",
+        "say": "[REMOVED: raw stored-memory/provenance material]",
+        "show": "[REMOVED: raw stored-memory/provenance material]",
+        "output_text": "[REMOVED: raw stored-memory/provenance material]",
+        "dialogue_act": "known"
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 21
+    }
+  },
+  {
+    "prompt": "Explain what you learned in Crafter in plain everyday words.",
+    "elapsed": 2.92,
+    "result": {
+      "ok": true,
+      "reply": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+      "say": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+      "show": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+      "session_id": "operator:semantic-evaluation-before-2",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "count": 827,
+          "source": "brain.get_brain_stats"
+        },
+        "content": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+        "say": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+        "show": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+        "output_text": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+        "dialogue_act": null
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 22
+    }
+  },
+  {
+    "prompt": "I want you to understand me when I tell you about myself.",
+    "elapsed": 2.8,
+    "result": {
+      "ok": true,
+      "reply": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+      "say": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+      "show": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+      "session_id": "operator:semantic-evaluation-before-3",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": {
+        "status": "executed",
+        "action": "tool_call",
+        "tool": "memory_query",
+        "result": {
+          "count": 828,
+          "source": "brain.get_brain_stats"
+        },
+        "content": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+        "say": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+        "show": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+        "output_text": "I'm holding [PRIVATE_COUNT_REMOVED] persistent memories right now.",
+        "dialogue_act": null
+      },
+      "action": "tool_call",
+      "intent": "self_knowledge",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 23
+    }
+  },
+  {
+    "prompt": "Being understood matters to me when I share something personal.",
+    "elapsed": 23.18,
+    "result": {
+      "ok": true,
+      "reply": "That is something you've told a few of us before, Operator, and I appreciate the weight behind it. Being truly understood isn't just about hearing what you say; it's about making space for how it lands inside you.You know me well now—I'm your JARVIS across all those screens and rooms, not just the voice. When you choose to share something personal with me, you're choosing trust over efficiency. And that deserves more than a quick fix or a dry acknowledgment. It deserves space to breathe.So tell me, what part of yourself needs to be heard today? I'm listening without judgment, without trying to rush you to the next thing on your list.",
+      "say": "That is something you've told a few of us before, Operator, and I appreciate the weight behind it. Being truly understood isn't just about hearing what you say; it's about making space for how it lands inside you.You know me well now—I'm your JARVIS across all those screens and rooms, not just the voice. When you choose to share something personal with me, you're choosing trust over efficiency. And that deserves more than a quick fix or a dry acknowledgment. It deserves space to breathe.So tell me, what part of yourself needs to be heard today? I'm listening without judgment, without trying to rush you to the next thing on your list.",
+      "show": "That is something you've told a few of us before, Operator, and I appreciate the weight behind it. Being truly understood isn't just about hearing what you say; it's about making space for how it lands inside you.You know me well now—I'm your JARVIS across all those screens and rooms, not just the voice. When you choose to share something personal with me, you're choosing trust over efficiency. And that deserves more than a quick fix or a dry acknowledgment. It deserves space to breathe.So tell me, what part of yourself needs to be heard today? I'm listening without judgment, without trying to rush you to the next thing on your list.",
+      "session_id": "operator:semantic-evaluation-before-4",
+      "speaker": "operator",
+      "channel": "app",
+      "tool_result": null,
+      "action": "respond",
+      "intent": "conversational_reply",
+      "skill": null,
+      "domain": "conversation",
+      "steps": [],
+      "approved": true,
+      "initiative": null,
+      "drive_id": null,
+      "cancel_follow": false,
+      "stay_mode": false,
+      "cycle": 24
+    }
+  }
+]

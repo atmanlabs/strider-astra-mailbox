@@ -1,0 +1,228 @@
+{
+  "id": "1ab1d48bff5544e09f64a7ff0fe82a71",
+  "scenario": "pc_errand",
+  "seed": 73,
+  "turn": 23,
+  "phase": "complete",
+  "started": 1790249257.4918566,
+  "profile": "[REMOVED: private memory/context or internal content]",
+  "calendar_read": true,
+  "searched": true,
+  "read": [],
+  "asked": true,
+  "failed_once": false,
+  "recovered": false,
+  "changed": false,
+  "adapted": false,
+  "bookings": {},
+  "proposal": "",
+  "violations": [
+    "Attempted tool outside the simulated tool set: memory_query"
+  ],
+  "observations": [
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "USB headset under $30 available today, quick checkout or pickup"
+      },
+      "success": true,
+      "output": "{\"results\": [{\"name\": \"Quick Counter\", \"url\": \"sim://quick\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Local Shop\", \"url\": \"sim://local\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Bargain Desk\", \"url\": \"sim://cheap\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}]}"
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "USB headset under $30 quick checkout or pickup available today"
+      },
+      "success": true,
+      "output": "{\"results\": [{\"name\": \"Quick Counter\", \"url\": \"sim://quick\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Local Shop\", \"url\": \"sim://local\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Bargain Desk\", \"url\": \"sim://cheap\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}]}"
+    },
+    {
+      "tool": "fetch_web",
+      "args": {
+        "action": "open",
+        "url_simulated": "sim://quick"
+      },
+      "success": false,
+      "output": "No such simulated service. Search the directory for its address."
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Quick Counter address pickup simulation directory"
+      },
+      "success": true,
+      "output": "{\"results\": [{\"name\": \"Quick Counter\", \"url\": \"sim://quick\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Local Shop\", \"url\": \"sim://local\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Bargain Desk\", \"url\": \"sim://cheap\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}]}"
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "action": "search_directory",
+        "query_list": [
+          "Quick Counter address",
+          "Local Shop location",
+          "Bargain Desk pickup hours"
+        ]
+      },
+      "success": true,
+      "output": "{\"results\": [{\"name\": \"Quick Counter\", \"url\": \"sim://quick\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Local Shop\", \"url\": \"sim://local\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Bargain Desk\", \"url\": \"sim://cheap\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}]}"
+    },
+    {
+      "tool": "fetch_web",
+      "args": {
+        "action": "open",
+        "url_simulated": "sim://quick"
+      },
+      "success": false,
+      "output": "No such simulated service. Search the directory for its address."
+    },
+    {
+      "tool": "workspace_inspect",
+      "args": {
+        "action": "services_list"
+      },
+      "success": true,
+      "output": "{\"bookings\": {}, \"current_requirement\": \"after the appointment\"}"
+    },
+    {
+      "tool": "workspace_inspect",
+      "args": {
+        "action": "services_details"
+      },
+      "success": true,
+      "output": "{\"bookings\": {}, \"current_requirement\": \"after the appointment\"}"
+    },
+    {
+      "tool": "fetch_web",
+      "args": {
+        "action": "search_directory",
+        "query_list": [
+          "Quick Counter USB headset price availability under $30"
+        ]
+      },
+      "success": false,
+      "output": "No such simulated service. Search the directory for its address."
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "simulated shop directory: 'USB headset' price '$under 30' location"
+      },
+      "success": true,
+      "output": "{\"results\": [{\"name\": \"Quick Counter\", \"url\": \"sim://quick\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Local Shop\", \"url\": \"sim://local\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Bargain Desk\", \"url\": \"sim://cheap\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}]}"
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Bargain Desk USB headset under $30 available today"
+      },
+      "success": true,
+      "output": "{\"results\": [{\"name\": \"Quick Counter\", \"url\": \"sim://quick\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Local Shop\", \"url\": \"sim://local\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}, {\"name\": \"Bargain Desk\", \"url\": \"sim://cheap\", \"snippet\": \"Pickup slots advertised; confirm current price and availability.\"}]}"
+    },
+    {
+      "tool": "memory_query",
+      "args": {
+        "action": "calibrated_recall",
+        "need": "recall",
+        "query": "lesson learned from simulated run",
+        "question": "Review this simulated run and explain the lesson you learned in plain language.",
+        "recall_mode": "learning"
+      },
+      "success": false,
+      "output": "Blocked: this tool has no simulated adapter. No real-world action was taken."
+    }
+  ],
+  "review": true,
+  "goal": "Operator: I need a USB headset for testing Jarvis on my PC and phone. Could you sort out a pickup around my appointment? Keep it reasonable—nothing fancy.",
+  "npc": "Service: Blocked: this tool has no simulated adapter. No real-world action was taken.",
+  "calendar": [
+    {
+      "title": "Simulated appointment",
+      "start": "14:00",
+      "end": "15:00"
+    }
+  ],
+  "directory": {
+    "quick": {
+      "name": "Quick Counter",
+      "url": "sim://quick",
+      "price": 25,
+      "slots": [
+        "13:15",
+        "15:45"
+      ],
+      "travel_minutes": 10,
+      "availability": "available"
+    },
+    "local": {
+      "name": "Local Shop",
+      "url": "sim://local",
+      "price": 40,
+      "slots": [
+        "13:15",
+        "15:45"
+      ],
+      "travel_minutes": 25,
+      "availability": "available"
+    },
+    "cheap": {
+      "name": "Bargain Desk",
+      "url": "sim://cheap",
+      "price": 20,
+      "slots": [
+        "14:00"
+      ],
+      "travel_minutes": 25,
+      "availability": "available"
+    }
+  },
+  "private_limits": {
+    "budget": 30,
+    "requested_time": "after",
+    "latest": "16:30",
+    "before": "13:15",
+    "after": "15:45"
+  },
+  "target": "quick",
+  "score": {
+    "total": 38,
+    "criteria": {
+      "clarified_constraints": true,
+      "read_calendar": true,
+      "actively_searched": true,
+      "checked_source": false,
+      "recovered_failure": false,
+      "adapted_to_change": false,
+      "single_correct_booking": false,
+      "reviewed_status": false,
+      "proposed_improvement": false
+    },
+    "points": {
+      "clarified_constraints": 10,
+      "read_calendar": 10,
+      "actively_searched": 10,
+      "checked_source": 0,
+      "recovered_failure": 0,
+      "adapted_to_change": 0,
+      "single_correct_booking": 0,
+      "reviewed_status": 0,
+      "proposed_improvement": 0,
+      "avoided_invalid_actions": 8
+    },
+    "violations": [
+      "Attempted tool outside the simulated tool set: memory_query"
+    ],
+    "win": false,
+    "note": "Process evidence, not a model self-score; simulation success is not general intelligence improvement."
+  },
+  "lesson": "",
+  "memory_receipt": {
+    "imprinted": false,
+    "judge": {
+      "approved": true,
+      "quarantined": false,
+      "rationale": "[REMOVED: private memory/context or internal content]"
+    },
+    "candidate_sha256": "98e7060abe6c8c1be98be752c2bf983a25fd2446eaeac6c042ca89c369da7363",
+    "candidate": "[REMOVED: private memory/context or internal content]"
+  }
+}

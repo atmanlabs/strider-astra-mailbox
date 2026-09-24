@@ -1,0 +1,21 @@
+{
+  "protected_files_unchanged": {
+    "core.py": true,
+    "exo_core.py": true,
+    "gate_policy.json": true,
+    "crate.py": true,
+    "wake.py": true,
+    "seal.py": true,
+    "voice.py": true,
+    "config.yaml": true
+  },
+  "changed_live_modules": {
+    "conversation_policy.py": "8abce71f5854011e2f5d163ae983227072fb1173f213b9e926b9ca692cb31a69",
+    "owner_disclosure.py": "67c11b3171f1fc1e8c66245810b5657c6489b848502a7dd175a880dbe2c28bda",
+    "reason.py": "8c584c27770222b5d496e28742d493aaf6911e7d28b32064352d538867a03130",
+    "epistemic_dialogue.py": "6f148837fb24398171f4ed5631dad381b9cd7ba1c8191e78a2b81a30839c1193",
+    "semantic_practice.py": "3fb4eca8683355618a0c84b86e67b51d3b86778dfef03b9b6056e0b1f13879e4",
+    "semantic_lessons.json": "f97e5d0f5c991103f8fd9ea23ccba51ea7d8967583cfd4b5fc92e8aa049576b0"
+  },
+  "regressions": "11 tests passed; see test command output in task history"
+}

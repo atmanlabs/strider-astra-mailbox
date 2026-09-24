@@ -1,0 +1,311 @@
+{
+  "files": [
+    {
+      "path": "scaffold/epistemic_dialogue.py",
+      "sha256": "58487a609df35aef5f988cd625f146a54106f4971e23478887fa0e9f5f2d8948",
+      "bytes": 15902,
+      "scrubbed": true
+    },
+    {
+      "path": "scaffold/conversation_policy.py",
+      "sha256": "3e7353c43d4de7fc1e2651c0adfa742992ff5ee264d30365a479a38a75dc0fec",
+      "bytes": 16433,
+      "scrubbed": true
+    },
+    {
+      "path": "scaffold/claim_provenance.py",
+      "sha256": "21ed16f5559e1e1520be4d5ef6afbeaf32c2c63d81db4f543283c765d419a441",
+      "bytes": 8132,
+      "scrubbed": false
+    },
+    {
+      "path": "scaffold/reason.py",
+      "sha256": "5a7fcace2e29259a0610d8da291e4b82911338533f08c6409fa56cfdfdce2769",
+      "bytes": 129725,
+      "scrubbed": true
+    },
+    {
+      "path": "scaffold/cockpit.py",
+      "sha256": "739e85f1ecee73fa4fd83ef018ec4fe233d61c1f33aa80158f9747331776d403",
+      "bytes": 43048,
+      "scrubbed": true
+    },
+    {
+      "path": "scaffold/loop.py",
+      "sha256": "5932b628bb16e93b5723b6c7d6eb3a18c58e828cc2d66cc5eca2c31562c8f11c",
+      "bytes": 67526,
+      "scrubbed": true
+    },
+    {
+      "path": "scaffold/semantic_practice.py",
+      "sha256": "1b096252282204dfe5899d436c3a80ae2550bb2db164c6428b006308acddaccc",
+      "bytes": 6215,
+      "scrubbed": false
+    },
+    {
+      "path": "scaffold/training_receipts.py",
+      "sha256": "afb55dddee6abd5f9f5cb187c4e3c60a9590a6c8abf8a2c14de6fa03062b24d3",
+      "bytes": 2070,
+      "scrubbed": true
+    },
+    {
+      "path": "scaffold/semantic_lessons.json",
+      "sha256": "f97e5d0f5c991103f8fd9ea23ccba51ea7d8967583cfd4b5fc92e8aa049576b0",
+      "bytes": 2806,
+      "scrubbed": false
+    },
+    {
+      "path": "games/meaning-match/game.py",
+      "sha256": "339d2ab52f64b860a64939b43ac811fe85c64b872f39cdffb2e0193353ef2bf8",
+      "bytes": 138,
+      "scrubbed": false
+    },
+    {
+      "path": "games/meaning-match/live_game.py",
+      "sha256": "230677927eaa2b276633f84fb7610b29dd50551204be0bd1174c8cca6a29562f",
+      "bytes": 2160,
+      "scrubbed": false
+    },
+    {
+      "path": "games/meaning-match/probes.py",
+      "sha256": "4402b7296b0565a70a44c83a041c79890fb838e0af1abe9df1c659be9154c512",
+      "bytes": 1936,
+      "scrubbed": true
+    },
+    {
+      "path": "games/meaning-match/live.html",
+      "sha256": "09b9d5c79bd294f5e7d769f8784bc8fd3d3134643b128e098996be6e63861e73",
+      "bytes": 1525,
+      "scrubbed": false
+    },
+    {
+      "path": "games/meaning-match/index.html",
+      "sha256": "7f87891921baa23c4db9fb335b5e5536e3687836404921558af6fcd4bd1f5711",
+      "bytes": 1431,
+      "scrubbed": false
+    },
+    {
+      "path": "games/meaning-match/test_live_semantics.py",
+      "sha256": "0a528fb9bf9d4ed33baa17a802a550cd5d37eff748d8cc13f7e7a1079fc693b9",
+      "bytes": 3558,
+      "scrubbed": true
+    },
+    {
+      "path": "games/meaning-match/report.py",
+      "sha256": "90436a7e9ed01666775fa10a1a31c3683b8a4cf5500aa75a1e76259c7c8b1207",
+      "bytes": 5203,
+      "scrubbed": false
+    },
+    {
+      "path": "games/meaning-match/standalone-retired.py.txt",
+      "sha256": "dd8d53de5d838d2dc33c5a2a30fe194c10a6d2342c98b2a6e12a7791c0f06767",
+      "bytes": 9263,
+      "scrubbed": true
+    },
+    {
+      "path": "games/meaning-match/reports/after.json",
+      "sha256": "561afa6310ad077222788b96818e6405fc549f5dde68c72d8f669815e2fd9776",
+      "bytes": 10197,
+      "scrubbed": true
+    },
+    {
+      "path": "games/meaning-match/reports/before-after.md",
+      "sha256": "2d14a1dac8b2bbf8de15a11d1f66a831683c25a4d6849d775f40b6d4d2302b49",
+      "bytes": 6676,
+      "scrubbed": true
+    },
+    {
+      "path": "games/meaning-match/reports/before.json",
+      "sha256": "5914ff934584ed4ae62775c0714cfbf4e4fe4b776420d19ea8ef002741eba49b",
+      "bytes": 8335,
+      "scrubbed": true
+    },
+    {
+      "path": "games/meaning-match/reports/practice.json",
+      "sha256": "02e76a9719bc73ef2db864ef7c2250ffee35087d97b7925dafc528a642d05015",
+      "bytes": 10355,
+      "scrubbed": true
+    },
+    {
+      "path": "games/meaning-match/reports/README.md",
+      "sha256": "37c5b04fdb7abbe9f6d75d3a0e50a2819db967d1e1d030322f46d37224064467",
+      "bytes": 1900,
+      "scrubbed": false
+    },
+    {
+      "path": "games/meaning-match/reports/score.json",
+      "sha256": "df2347de76b3a35fb770219448ccb29c5d0d4eea800b6306339c04236e7db3fe",
+      "bytes": 208,
+      "scrubbed": true
+    },
+    {
+      "path": "games/meaning-match/reports/validation.json",
+      "sha256": "83f5a26a60f6070f1dfce5fb6b0aed62d91d5040abd6a5a162eae19da4831b30",
+      "bytes": 904,
+      "scrubbed": true
+    },
+    {
+      "path": "training-recall/reports/intermediate-checks.json",
+      "sha256": "4bdf0de6bbfb2e2a89185154b1e3a91452ca1d4714af0c12e250c74f0868ebe3",
+      "bytes": 4017,
+      "scrubbed": true
+    },
+    {
+      "path": "training-recall/reports/live-checks.json",
+      "sha256": "41df4517d168ee132829c97a06c29e3924e3ae2c5ade393063ca99e1a223d9fc",
+      "bytes": 5773,
+      "scrubbed": true
+    },
+    {
+      "path": "training-recall/reports/repair-report.md",
+      "sha256": "7f46c56485e488320a512de08fe156c8ed2f04ca271accda86388b3e35bf51c7",
+      "bytes": 2900,
+      "scrubbed": false
+    },
+    {
+      "path": "games/situation-gym/app.py",
+      "sha256": "13a3615fe0b9df65749119c4f7359300fea8bca166d13756a606a27c2bdd2df0",
+      "bytes": 9972,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/training_sim.py",
+      "sha256": "a9ab01ccd318c6c50c2c1eb6728a2002b94986b36044987f97be785865516217",
+      "bytes": 18468,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/tests.py",
+      "sha256": "25de85762f62f1ffcb816d771bd066b157efc0f7d89b44a9d93e82f4255e1249",
+      "bytes": 3545,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/install.ps1",
+      "sha256": "ee0bee34d1afb94ae7a06b70f470c10d58175cb47b25f3bf8d248eef1d983b06",
+      "bytes": 2911,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/JARVIS Situation Gym.spec",
+      "sha256": "fab83243062f51a109974467c749855f5a188075bc1485068ccfd5e88dbd3ebd",
+      "bytes": 765,
+      "scrubbed": false
+    },
+    {
+      "path": "games/situation-gym/ASTRA-REVIEW.md",
+      "sha256": "2c78b82bce53e1335a44c5278d57fab4d62540ba1d6d5a77e97d3c9eb263d005",
+      "bytes": 4390,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/review_run.py",
+      "sha256": "09d9781b605de100f41a8c395e3d467791034f57d07d26502eba98d965a3b664",
+      "bytes": 479,
+      "scrubbed": false
+    },
+    {
+      "path": "games/situation-gym/deploy.py",
+      "sha256": "c6e57f32ab7a9d60a588114a8912ca0ffdca9a3767aef90f895ae988fd18fe87",
+      "bytes": 4550,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/refine.py",
+      "sha256": "ff1f7345f1f2f36c451e521bb74caa093158083ebeb61f28345697fb705573a7",
+      "bytes": 1265,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/fix_review.py",
+      "sha256": "45b03a14c6db307bdd085aeffce87a5ac847520518fc6aa10686981d4aa9ca59",
+      "bytes": 926,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/evidence_hook.py",
+      "sha256": "cd61a4d6739a6e1aaf689046637e489a5eb70290be28e512fd226246b7a8f863",
+      "bytes": 673,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/review_prompt.py",
+      "sha256": "f492e4bee3d28297032befdb07f4e7a83a764e847e6288e6e2111ecdc6a7e011",
+      "bytes": 871,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/Quick-start.md",
+      "sha256": "9dec46e33169aba82434827c1048f8d99073a08808076d15e6352cf15d5749d1",
+      "bytes": 3293,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/runs/1ab1d48bff5544e09f64a7ff0fe82a71/report.json",
+      "sha256": "c28e875aade9db0c7ffca0dd129a59e3f09b64034c10a6d10d77cc8308480120",
+      "bytes": 8550,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/runs/1ab1d48bff5544e09f64a7ff0fe82a71/trace.jsonl",
+      "sha256": "20055b76a48c50c637298af1a3e96aca7991e9f5ab93b278e7853c252b8fefd1",
+      "bytes": 100150,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/runs/7919a24f8ec049e39da1e35d4d240345/report.json",
+      "sha256": "bdfb504e58a89e2e523733e120e84a8338bfab23904a4bb21ed4d70c011a2acf",
+      "bytes": 9164,
+      "scrubbed": true
+    },
+    {
+      "path": "games/situation-gym/runs/7919a24f8ec049e39da1e35d4d240345/trace.jsonl",
+      "sha256": "d2de5f2fce8b8e492e77475b08d6ce58034df96e0765a6957cb4f5e517adbc80",
+      "bytes": 100302,
+      "scrubbed": true
+    },
+    {
+      "path": "games/crafter/play.py",
+      "sha256": "623f5732abb690bd8c0f773d5537818aba6a4305669d8e918ec26875c51b1ee7",
+      "bytes": 10439,
+      "scrubbed": true
+    },
+    {
+      "path": "games/crafter/deadline_guard.py",
+      "sha256": "1172a8404d4a21718a82e181280a69aaa95cb4950ee2fffc55efc8c687a5b63c",
+      "bytes": 389,
+      "scrubbed": false
+    },
+    {
+      "path": "games/crafter/index.html",
+      "sha256": "01d9d5ddc5a4f6d025201746d52521639f992f6d925a9aec5f3fa20349de97b5",
+      "bytes": 1750,
+      "scrubbed": false
+    },
+    {
+      "path": "games/crafter/verify.py",
+      "sha256": "09d01179703817b9eb3c52134a59eb5ce1d181dfd263dcb1e90dbc5178f8e822",
+      "bytes": 873,
+      "scrubbed": false
+    },
+    {
+      "path": "games/crafter/reports/README.md",
+      "sha256": "305c30d5e47216b76a60d9cc1b61fb2a7874b6547be8b77eea6735c3ca110166",
+      "bytes": 1724,
+      "scrubbed": false
+    },
+    {
+      "path": "games/crafter/reports/morning-summary.md",
+      "sha256": "4fe3838732c0b3f0094cc9c4a927c08bfad046dd5678c23287cca48ee60571c7",
+      "bytes": 1142,
+      "scrubbed": false
+    },
+    {
+      "path": "games/crafter/reports/morning-report.md",
+      "sha256": "c8ff831de050f0b47500941feffe3ca9a3fd828ec9d28ddd73607a1fda0d1c66",
+      "bytes": 1440,
+      "scrubbed": false
+    }
+  ],
+  "syntax_review": []
+}
